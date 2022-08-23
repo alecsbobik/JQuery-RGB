@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#btn_red").click(function(){
+    $("p").css("background-color", "#FF0000");
+    $("p").text("#FF0000");
+  });
+});
+
+$(document).ready(function(){
+  $("#btn_green").click(function(){
+    $("p").css("background-color", "#008000");
+    $("p").text("#008000");
+  });
+});
+
+$(document).ready(function(){
+  $("#btn_blue").click(function(){
+    $("p").css("background-color", "#0000FF");
+    $("p").text("#0000FF");
+  });
+});
+
+</script>
+</head>
+<body>
+
+<p></p>
+
+<button id="btn_red">Red</button>
+<button id="btn_green">Green</button>
+<button id="btn_blue">Blue</button>
+
+</body>
+</html>
